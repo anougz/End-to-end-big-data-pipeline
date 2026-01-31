@@ -1,0 +1,2233 @@
+nohup: ignoring input
+/home/adm-mcsc/earthquake-pipeline/earthquake_producer.py:83: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'ingestion_timestamp': datetime.utcnow().isoformat()
+Connexion au broker Kafka: 10.0.0.121:9092
+✓ Producer Kafka initialisé
+✓ Topic: earthquake-events
+
+=== Démarrage du Producer Earthquake ===
+API: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+Intervalle de polling: 60 secondes
+Topic Kafka: earthquake-events
+
+Appuyez sur Ctrl+C pour arrêter
+============================================================
+
+
+--- Itération 1 ---
+[2026-01-01 16:32:08] Interrogation de l'API USGS...
+  → 11 événements récupérés
+  ✓ Envoyé: hv74867077... | Mag 2.18 | 13 km S of Volcano, Hawaii
+  ✓ Envoyé: ci41150671... | Mag 2.05 | 5 km NNE of Castaic, CA
+  ✓ Envoyé: ak2026abggnt... | Mag 2.2 | 56 km WNW of Nanwalek, Alaska
+  ✓ Envoyé: pr71503643... | Mag 2.2 | 2 km NNW of Guayanilla, Puerto Rico
+  ✓ Envoyé: ak2026abgdbz... | Mag 3 | 15 km SSW of Larsen Bay, Alaska
+  ✓ Envoyé: nc75289686... | Mag 1.14 | 10 km NE of San Martin, CA
+  ✓ Envoyé: us7000rlxw... | Mag 2.7 | 107 km N of Yakutat, Alaska
+  ✓ Envoyé: us7000rlxx... | Mag 4.2 | 12 km SSE of Horokanai, Japan
+  ✓ Envoyé: nc75289681... | Mag 1.16 | 8 km NW of The Geysers, CA
+  ✓ Envoyé: us7000rlxv... | Mag 3.1 | 122 km NNW of Yakutat, Alaska
+  ✓ Envoyé: us7000rlxu... | Mag 2.7 | 106 km N of Yakutat, Alaska
+
+  Nouveaux événements: 11
+  Envoyés avec succès: 11
+  Total envoyés: 11
+  IDs en cache: 11
+
+  Attente de 60 secondes...
+
+--- Itération 2 ---
+[2026-01-01 16:33:09] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 11
+  IDs en cache: 11
+
+  Attente de 60 secondes...
+
+--- Itération 3 ---
+[2026-01-01 16:34:09] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 11
+  IDs en cache: 11
+
+  Attente de 60 secondes...
+
+--- Itération 4 ---
+[2026-01-01 16:35:09] Interrogation de l'API USGS...
+  → 10 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 11
+  IDs en cache: 11
+
+  Attente de 60 secondes...
+
+--- Itération 5 ---
+[2026-01-01 16:36:09] Interrogation de l'API USGS...
+  → 12 événements récupérés
+  ✓ Envoyé: ci41150679... | Mag 1.27176994687282 | 13 km E of Ridgecrest, CA
+  ✓ Envoyé: ak2026abgxle... | Mag 2 | 25 km SE of Larsen Bay, Alaska
+
+  Nouveaux événements: 2
+  Envoyés avec succès: 2
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 6 ---
+[2026-01-01 16:37:09] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 7 ---
+[2026-01-01 16:38:09] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 8 ---
+[2026-01-01 16:39:09] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 9 ---
+[2026-01-01 16:40:09] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 10 ---
+[2026-01-01 16:41:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 11 ---
+[2026-01-01 16:42:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 12 ---
+[2026-01-01 16:43:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 13 ---
+[2026-01-01 16:44:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 14 ---
+[2026-01-01 16:45:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 15 ---
+[2026-01-01 16:46:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 16 ---
+[2026-01-01 16:47:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 17 ---
+[2026-01-01 16:48:10] Interrogation de l'API USGS...
+  → 12 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 18 ---
+[2026-01-01 16:49:10] Interrogation de l'API USGS...
+  → 10 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 13
+  IDs en cache: 13
+
+  Attente de 60 secondes...
+
+--- Itération 19 ---
+[2026-01-01 16:50:10] Interrogation de l'API USGS...
+  → 11 événements récupérés
+  ✓ Envoyé: ci41150687... | Mag 2.17260078397373 | 32 km N of Yucca Valley, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 20 ---
+[2026-01-01 16:51:10] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 21 ---
+[2026-01-01 16:52:10] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 22 ---
+[2026-01-01 16:53:11] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 23 ---
+[2026-01-01 16:54:11] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 24 ---
+[2026-01-01 16:55:11] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 25 ---
+[2026-01-01 16:56:11] Interrogation de l'API USGS...
+  → 11 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 26 ---
+[2026-01-01 16:57:11] Interrogation de l'API USGS...
+  → 9 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 27 ---
+[2026-01-01 16:58:11] Interrogation de l'API USGS...
+  → 9 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 28 ---
+[2026-01-01 16:59:11] Interrogation de l'API USGS...
+  → 9 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 29 ---
+[2026-01-01 17:00:11] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 30 ---
+[2026-01-01 17:01:11] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 31 ---
+[2026-01-01 17:02:11] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 32 ---
+[2026-01-01 17:03:11] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 33 ---
+[2026-01-01 17:04:12] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 34 ---
+[2026-01-01 17:05:12] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 35 ---
+[2026-01-01 17:06:12] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 36 ---
+[2026-01-01 17:07:12] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 37 ---
+[2026-01-01 17:08:12] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 38 ---
+[2026-01-01 17:09:12] Interrogation de l'API USGS...
+  → 8 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 39 ---
+[2026-01-01 17:10:12] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 14
+  IDs en cache: 14
+
+  Attente de 60 secondes...
+
+--- Itération 40 ---
+[2026-01-01 17:11:13] Interrogation de l'API USGS...
+  → 7 événements récupérés
+  ✓ Envoyé: nc75289701... | Mag 1.09 | 6 km NNW of The Geysers, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 41 ---
+[2026-01-01 17:12:13] Interrogation de l'API USGS...
+  → 7 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 42 ---
+[2026-01-01 17:13:13] Interrogation de l'API USGS...
+  → 7 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 43 ---
+[2026-01-01 17:14:13] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 44 ---
+[2026-01-01 17:15:13] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 45 ---
+[2026-01-01 17:16:13] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 46 ---
+[2026-01-01 17:17:13] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 47 ---
+[2026-01-01 17:18:13] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 48 ---
+[2026-01-01 17:19:13] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 15
+  IDs en cache: 15
+
+  Attente de 60 secondes...
+
+--- Itération 49 ---
+[2026-01-01 17:20:14] Interrogation de l'API USGS...
+  → 6 événements récupérés
+  ✓ Envoyé: nc75289711... | Mag 0.62 | 3 km NNW of The Geysers, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 50 ---
+[2026-01-01 17:21:14] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 51 ---
+[2026-01-01 17:22:14] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 52 ---
+[2026-01-01 17:23:14] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 53 ---
+[2026-01-01 17:24:14] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 54 ---
+[2026-01-01 17:25:14] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 55 ---
+[2026-01-01 17:26:14] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 56 ---
+[2026-01-01 17:27:14] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 57 ---
+[2026-01-01 17:28:14] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 58 ---
+[2026-01-01 17:29:14] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 59 ---
+[2026-01-01 17:30:14] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 60 ---
+[2026-01-01 17:31:15] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 61 ---
+[2026-01-01 17:32:15] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 62 ---
+[2026-01-01 17:33:15] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 63 ---
+[2026-01-01 17:34:15] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 16
+  IDs en cache: 16
+
+  Attente de 60 secondes...
+
+--- Itération 64 ---
+[2026-01-01 17:35:15] Interrogation de l'API USGS...
+  → 4 événements récupérés
+  ✓ Envoyé: ci41150695... | Mag 1.38077378713524 | 3 km E of Borrego Springs, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 17
+  IDs en cache: 17
+
+  Attente de 60 secondes...
+
+--- Itération 65 ---
+[2026-01-01 17:36:15] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 17
+  IDs en cache: 17
+
+  Attente de 60 secondes...
+
+--- Itération 66 ---
+[2026-01-01 17:37:15] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 17
+  IDs en cache: 17
+
+  Attente de 60 secondes...
+
+--- Itération 67 ---
+[2026-01-01 17:38:15] Interrogation de l'API USGS...
+  → 5 événements récupérés
+  ✓ Envoyé: nc75289716... | Mag 1.08 | 10 km NW of The Geysers, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 18
+  IDs en cache: 18
+
+  Attente de 60 secondes...
+
+--- Itération 68 ---
+[2026-01-01 17:39:15] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 18
+  IDs en cache: 18
+
+  Attente de 60 secondes...
+
+--- Itération 69 ---
+[2026-01-01 17:40:15] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 18
+  IDs en cache: 18
+
+  Attente de 60 secondes...
+
+--- Itération 70 ---
+[2026-01-01 17:41:16] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 18
+  IDs en cache: 18
+
+  Attente de 60 secondes...
+
+--- Itération 71 ---
+[2026-01-01 17:42:16] Interrogation de l'API USGS...
+  → 6 événements récupérés
+  ✓ Envoyé: nn00909120... | Mag 2.07 | 7 km ENE of Hawthorne, Nevada
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 72 ---
+[2026-01-01 17:43:16] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 73 ---
+[2026-01-01 17:44:16] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 74 ---
+[2026-01-01 17:45:16] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 75 ---
+[2026-01-01 17:46:16] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 76 ---
+[2026-01-01 17:47:16] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 77 ---
+[2026-01-01 17:48:16] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 78 ---
+[2026-01-01 17:49:16] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 79 ---
+[2026-01-01 17:50:16] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 80 ---
+[2026-01-01 17:51:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 81 ---
+[2026-01-01 17:52:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 82 ---
+[2026-01-01 17:53:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 83 ---
+[2026-01-01 17:54:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 84 ---
+[2026-01-01 17:55:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 85 ---
+[2026-01-01 17:56:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 86 ---
+[2026-01-01 17:57:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 87 ---
+[2026-01-01 17:58:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 88 ---
+[2026-01-01 17:59:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 89 ---
+[2026-01-01 18:00:17] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 90 ---
+[2026-01-01 18:01:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 91 ---
+[2026-01-01 18:02:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 92 ---
+[2026-01-01 18:03:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 93 ---
+[2026-01-01 18:04:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 94 ---
+[2026-01-01 18:05:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 95 ---
+[2026-01-01 18:06:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 96 ---
+[2026-01-01 18:07:18] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 97 ---
+[2026-01-01 18:08:19] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 98 ---
+[2026-01-01 18:09:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 99 ---
+[2026-01-01 18:10:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 100 ---
+[2026-01-01 18:11:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 101 ---
+[2026-01-01 18:12:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 102 ---
+[2026-01-01 18:13:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 103 ---
+[2026-01-01 18:14:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 104 ---
+[2026-01-01 18:15:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 105 ---
+[2026-01-01 18:16:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 106 ---
+[2026-01-01 18:17:19] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 107 ---
+[2026-01-01 18:18:20] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 108 ---
+[2026-01-01 18:19:20] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 109 ---
+[2026-01-01 18:20:20] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 110 ---
+[2026-01-01 18:21:20] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 111 ---
+[2026-01-01 18:22:20] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 112 ---
+[2026-01-01 18:23:20] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 19
+  IDs en cache: 19
+
+  Attente de 60 secondes...
+
+--- Itération 113 ---
+[2026-01-01 18:24:20] Interrogation de l'API USGS...
+  → 4 événements récupérés
+  ✓ Envoyé: ak2026abknkj... | Mag 1.7 | 33 km E of Pedro Bay, Alaska
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 114 ---
+[2026-01-01 18:25:20] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 115 ---
+[2026-01-01 18:26:20] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 116 ---
+[2026-01-01 18:27:20] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 117 ---
+[2026-01-01 18:28:21] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 118 ---
+[2026-01-01 18:29:21] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 119 ---
+[2026-01-01 18:30:21] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 120 ---
+[2026-01-01 18:31:21] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 121 ---
+[2026-01-01 18:32:21] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 122 ---
+[2026-01-01 18:33:21] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 123 ---
+[2026-01-01 18:34:21] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 124 ---
+[2026-01-01 18:35:21] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 125 ---
+[2026-01-01 18:36:21] Interrogation de l'API USGS...
+  → 2 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 126 ---
+[2026-01-01 18:37:22] Interrogation de l'API USGS...
+  → 2 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 127 ---
+[2026-01-01 18:38:22] Interrogation de l'API USGS...
+  → 2 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 128 ---
+[2026-01-01 18:39:22] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 129 ---
+[2026-01-01 18:40:22] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 130 ---
+[2026-01-01 18:41:22] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 131 ---
+[2026-01-01 18:42:22] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 132 ---
+[2026-01-01 18:43:22] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 133 ---
+[2026-01-01 18:44:22] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 134 ---
+[2026-01-01 18:45:23] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 135 ---
+[2026-01-01 18:46:23] Interrogation de l'API USGS...
+  → 1 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 20
+  IDs en cache: 20
+
+  Attente de 60 secondes...
+
+--- Itération 136 ---
+[2026-01-01 18:47:23] Interrogation de l'API USGS...
+  → 2 événements récupérés
+  ✓ Envoyé: nc75289741... | Mag 1.12 | 1 km NNW of The Geysers, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 21
+  IDs en cache: 21
+
+  Attente de 60 secondes...
+
+--- Itération 137 ---
+[2026-01-01 18:48:23] Interrogation de l'API USGS...
+  → 3 événements récupérés
+  ✓ Envoyé: ak2026ablipn... | Mag 1.6 | 39 km WNW of Anchor Point, Alaska
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 22
+  IDs en cache: 22
+
+  Attente de 60 secondes...
+
+--- Itération 138 ---
+[2026-01-01 18:49:23] Interrogation de l'API USGS...
+  → 3 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 22
+  IDs en cache: 22
+
+  Attente de 60 secondes...
+
+--- Itération 139 ---
+[2026-01-01 18:50:23] Interrogation de l'API USGS...
+  → 4 événements récupérés
+  ✓ Envoyé: hv74867107... | Mag 2.04 | 10 km ESE of Pāhala, Hawaii
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 140 ---
+[2026-01-01 18:51:23] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 141 ---
+[2026-01-01 18:52:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 142 ---
+[2026-01-01 18:53:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 143 ---
+[2026-01-01 18:54:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 144 ---
+[2026-01-01 18:55:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 145 ---
+[2026-01-01 18:56:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 146 ---
+[2026-01-01 18:57:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 147 ---
+[2026-01-01 18:58:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 148 ---
+[2026-01-01 18:59:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 149 ---
+[2026-01-01 19:00:24] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 23
+  IDs en cache: 23
+
+  Attente de 60 secondes...
+
+--- Itération 150 ---
+[2026-01-01 19:01:24] Interrogation de l'API USGS...
+  → 5 événements récupérés
+  ✓ Envoyé: nc75289746... | Mag 0.77 | 12 km SE of Coalinga, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 151 ---
+[2026-01-01 19:02:24] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 152 ---
+[2026-01-01 19:03:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 153 ---
+[2026-01-01 19:04:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 154 ---
+[2026-01-01 19:05:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 155 ---
+[2026-01-01 19:06:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 156 ---
+[2026-01-01 19:07:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 157 ---
+[2026-01-01 19:08:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 158 ---
+[2026-01-01 19:09:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 159 ---
+[2026-01-01 19:10:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 160 ---
+[2026-01-01 19:11:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 161 ---
+[2026-01-01 19:12:25] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 162 ---
+[2026-01-01 19:13:26] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 163 ---
+[2026-01-01 19:14:26] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 164 ---
+[2026-01-01 19:15:26] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 24
+  IDs en cache: 24
+
+  Attente de 60 secondes...
+
+--- Itération 165 ---
+[2026-01-01 19:16:26] Interrogation de l'API USGS...
+  → 6 événements récupérés
+  ✓ Envoyé: hv74867142... | Mag 1.75 | 12 km ESE of Naalehu, Hawaii
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 166 ---
+[2026-01-01 19:17:26] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 167 ---
+[2026-01-01 19:18:26] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 168 ---
+[2026-01-01 19:19:26] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 169 ---
+[2026-01-01 19:20:26] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 170 ---
+[2026-01-01 19:21:27] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 171 ---
+[2026-01-01 19:22:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 172 ---
+[2026-01-01 19:23:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 173 ---
+[2026-01-01 19:24:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 174 ---
+[2026-01-01 19:25:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 175 ---
+[2026-01-01 19:26:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 176 ---
+[2026-01-01 19:27:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 177 ---
+[2026-01-01 19:28:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 178 ---
+[2026-01-01 19:29:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 179 ---
+[2026-01-01 19:30:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 180 ---
+[2026-01-01 19:31:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 181 ---
+[2026-01-01 19:32:27] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 182 ---
+[2026-01-01 19:33:28] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 183 ---
+[2026-01-01 19:34:28] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 184 ---
+[2026-01-01 19:35:28] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 185 ---
+[2026-01-01 19:36:28] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 186 ---
+[2026-01-01 19:37:28] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 187 ---
+[2026-01-01 19:38:28] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 25
+  IDs en cache: 25
+
+  Attente de 60 secondes...
+
+--- Itération 188 ---
+[2026-01-01 19:39:28] Interrogation de l'API USGS...
+  → 6 événements récupérés
+  ✓ Envoyé: nc75289756... | Mag 1.55 | 2 km NE of The Geysers, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 26
+  IDs en cache: 26
+
+  Attente de 60 secondes...
+
+--- Itération 189 ---
+[2026-01-01 19:40:28] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 26
+  IDs en cache: 26
+
+  Attente de 60 secondes...
+
+--- Itération 190 ---
+[2026-01-01 19:41:28] Interrogation de l'API USGS...
+  → 6 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 26
+  IDs en cache: 26
+
+  Attente de 60 secondes...
+
+--- Itération 191 ---
+[2026-01-01 19:42:28] Interrogation de l'API USGS...
+  → 7 événements récupérés
+  ✓ Envoyé: nc75289766... | Mag 1.88 | 15 km S of Tres Pinos, CA
+
+  Nouveaux événements: 1
+  Envoyés avec succès: 1
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 192 ---
+[2026-01-01 19:43:28] Interrogation de l'API USGS...
+  → 7 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 193 ---
+[2026-01-01 19:44:29] Interrogation de l'API USGS...
+  → 7 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 194 ---
+[2026-01-01 19:45:29] Interrogation de l'API USGS...
+  → 7 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 195 ---
+[2026-01-01 19:46:29] Interrogation de l'API USGS...
+  → 5 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 196 ---
+[2026-01-01 19:47:29] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 197 ---
+[2026-01-01 19:48:29] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 198 ---
+[2026-01-01 19:49:29] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 199 ---
+[2026-01-01 19:50:29] Interrogation de l'API USGS...
+  → 4 événements récupérés
+
+  Nouveaux événements: 0
+  Envoyés avec succès: 0
+  Total envoyés: 27
+  IDs en cache: 27
+
+  Attente de 60 secondes...
+
+--- Itération 200 ---
