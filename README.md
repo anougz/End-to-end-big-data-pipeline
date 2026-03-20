@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # End-to-end-big-data-pipeline
 =======
 End-to-end pipeline project
@@ -26,4 +25,6 @@ The data flows through the following components:
     Database: PostgreSQL 14+
 
     Visuals: Grafana
->>>>>>> 510c047 (Add project structure and pipeline code)
+
+📽️Link of demo :
+    https://drive.google.com/drive/folders/1alHfu3vTUvdH2CFHST362SoZJaj-tfoe?usp=sharing
